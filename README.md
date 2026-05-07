@@ -1,19 +1,19 @@
-# 🤖 TurtleBot3 Q-Learning ile Otonom Hedef Bulma
+#  TurtleBot3 Q-Learning ile Otonom Hedef Bulma
 
 Bu proje, **Q-Learning** algoritması kullanarak TurtleBot3 robotunun **LIDAR sensörleri** ile çevresini algılayıp, engellerden kaçınarak hedef noktaya (kırmızı daire) ulaşmasını sağlayan bir **Pekiştirmeli Öğrenme** uygulamasıdır.
 
 ---
 
-## 📊 **Proje Sonuçları (Özet)**
+##  **Proje Sonuçları (Özet)**
 
 | Metrik | Değer |
 |--------|-------|
 | **Toplam Episode** | 3000 |
 | **Ortalama Reward (son 50)** | ~400 |
 | **En İyi Reward** | ~1000 |
-| **Hedefe Ulaşmak Gerekli İçin Minimum Puan** | ~45-60 dakika |
+| **Hedefe Ulaşmak Gerekli İçin Minimum Puan** | ~250 |
 
-### 📈 **Eğitim Grafiği**
+###  **Eğitim Grafiği**
 
 <img width="820" height="297" alt="Ekran görüntüsü 2026-05-06 161847" src="https://github.com/user-attachments/assets/a91918bf-daf4-400d-82b0-7ec4dbc2606b" />
 
@@ -22,7 +22,7 @@ Bu proje, **Q-Learning** algoritması kullanarak TurtleBot3 robotunun **LIDAR se
 
 ---
 
-## 🎬 **Test GIF'i (Robotun Hedefe Ulaşma Animasyonu)**
+##  **Test GIF'i (Robotun Hedefe Ulaşma Animasyonu)**
 
 <img width="1460" height="1484" alt="robot_test_animation" src="https://github.com/user-attachments/assets/cf78c693-a0cd-4362-962a-647fac16bb35" />
 
@@ -31,7 +31,7 @@ Bu proje, **Q-Learning** algoritması kullanarak TurtleBot3 robotunun **LIDAR se
 
 ---
 
-## 🧠 **Q-Learning Algoritması**
+##  **Q-Learning Algoritması**
 
 ### **Matematiksel Formül**
 
@@ -50,7 +50,7 @@ Bu proje, **Q-Learning** algoritması kullanarak TurtleBot3 robotunun **LIDAR se
 
 ---
 
-## 🎯 **State Space (Durum Uzayı)**
+##  **State Space (Durum Uzayı)**
 
 Robotun algıladığı durum **3 ana bileşenden** oluşur:
 
@@ -99,7 +99,7 @@ Toplam State = LIDAR (7 × 4) × Hedef Mesafe (5) × Hedef Açı (8) = 28 × 5 �
 
 ---
 
-## 🎮 **Action Space (Aksiyon Uzayı)**
+##  **Action Space (Aksiyon Uzayı)**
 
 Robot **5 farklı aksiyon** alabilir:
 
@@ -115,7 +115,7 @@ Robot **5 farklı aksiyon** alabilir:
 
 ---
 
-## 💰 **Ödül Fonksiyonu (Reward Function)**
+##  **Ödül Fonksiyonu (Reward Function)**
 
 Robotun aldığı her aksiyon sonrasında bir ödül/ceza alır:
 
