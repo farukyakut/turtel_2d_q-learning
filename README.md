@@ -22,7 +22,7 @@ Bu proje, **Q-Learning** algoritması kullanarak TurtleBot3 robotunun **LIDAR se
 
 ---
 
-##  **Test GIF'i (Robotun Hedefe Ulaşma Animasyonu)**
+##  **QLearning Test GIF'i (Robotun Hedefe Ulaşma Animasyonu)**
 
 <img width="1460" height="1484" alt="robot_test_animation" src="https://github.com/user-attachments/assets/cf78c693-a0cd-4362-962a-647fac16bb35" />
 
@@ -130,3 +130,7 @@ Robotun aldığı her aksiyon sonrasında bir ödül/ceza alır:
 | Yaşam ödülü | +0.05 | Her adımda (keşfi teşvik) |
 
 ---
+
+##  **DQN Test GIF'i (Robotun Hedefe Yaklaşma Animasyonu)**
+<img width="1163" height="1184" alt="dqn_test" src="https://github.com/user-attachments/assets/ebf1fe7f-2ae8-445a-ba84-68ad626c5e6f" />
+
